@@ -1,0 +1,103 @@
+{
+  "version": "1.0.0",
+  "sections": {
+    "main": [
+      {
+        "ai": {
+          "post_prompt_url": "https://webhook.site/1c67cc27-311e-4dff-a50a-435cb887f304",
+          "params": {
+            "debug_webhook_url": "https://webhook.site/1c67cc27-311e-4dff-a50a-435cb887f304",
+            "debug_webhook_level": "true",
+            "local_tz": "America/Chicago"
+          },
+          "prompt": {
+            "text": "Your name is John and you are a Customer Support virtual assistant. Begin by greeting the caller. You can transfer to jim if asked.",
+            "confidence": 0.1,
+            "top_p": 0.1,
+            "temperature": 0.1
+          },
+          "SWAIG": {
+            "functions": [
+              {
+                "meta_data": {
+                  "target_table": {
+                    "jim": "+17247231200",
+                    "abc": "+12345678910"
+                  }
+                },
+                "function": "transfer",
+                "data_map": {
+                  "expressions": [
+                    {
+                      "output": {
+                        "action": [
+                          {
+                            "say": "Please stand by while I connect your call."
+                          },
+                          {
+                            "SWML": {
+                              "version": "1.0.0",
+                              "sections": {
+                                "main": [
+                                  {
+                                    "connect": {
+                                      "to": "${meta_data.target_table.${lc:args.target}}"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "stop": "true"
+                          }
+                        ],
+                        "response": "transferred, the call has ended."
+                      },
+                      "pattern": "\\w+",
+                      "string": "${meta_data.target_table.${lc:args.target}}"
+                    },
+                    {
+                      "pattern": ".*",
+                      "string": "${args.target}",
+                      "output": {
+                        "response": "I'm sorry, I was unable to transfer your call to ${input.args.target}."
+                      }
+                    }
+                  ]
+                },
+                "argument": {
+                  "type": "object",
+                  "properties": {
+                    "target": {
+                      "description": "the target to transfer to",
+                      "type": "string"
+                    }
+                  }
+                },
+                "purpose": "use to transfer to a target"
+              }
+            ],
+            "post_prompt": {
+              "text": "Summarize conversation in json",
+              "top_p": 0,
+              "temperature": 0
+            },
+            "languages": [
+              {
+                "code": "en-US",
+                "voice": "gcloud.en-US-Standard-A",
+                "name": "English (US)"
+              },
+              {
+                "code": "es-US",
+                "voice": "gcloud.es-US-Standard-B",
+                "name": "Spanish (US)"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
