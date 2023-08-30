@@ -47,12 +47,12 @@ The configuration starts with a version identifier and a nested structure named 
 
 ## The AI section contains various settings and instructions for the virtual assistant's behavior. Here's a breakdown of the components:
 
--    post_prompt_url: A URL where the assistant can send data after prompts.
--    params: Parameters influencing AI behavior, such as debug settings and time zone.
--    prompt: Instructions for the initial greeting and behavior of the assistant, including confidence levels and response characteristics.
--    SWAIG: This section defines functions and settings related to call handling. Specifically, it includes a transfer function and associated data mappings.
--    post_prompt: Instructions for behavior after the conversation ends.
--    languages: List of supported languages along with their voice settings.
+-   `post_prompt_url:` A URL where the assistant can send data after prompts.
+-   `params:` Parameters influencing AI behavior, such as debug settings and time zone.
+-   `prompt:` Instructions for the initial greeting and behavior of the assistant, including confidence levels and response characteristics.
+-   `SWAIG:` This section defines functions and settings related to call handling. Specifically, it includes a transfer function and associated data mappings.
+-   `post_prompt:` Instructions for behavior after the conversation ends.
+-   `languages:` List of supported languages along with their voice settings.
 
 ## AI Functions: Transfer Function
 
@@ -78,11 +78,11 @@ The configuration starts with a version identifier and a nested structure named 
 
 ## Within the SWAIG section, we define a function for transferring calls. This function includes:
 
--    meta_data: A metadata section containing target phone numbers for transfer.
--    function: Specifies that this is a transfer function.
--    data_map: Expressions to control the transfer process based on conditions.
--    argument: Definition of the 'target' argument that specifies the transfer destination.
--    purpose: Describes the purpose of the function.
+-    `meta_data:` A metadata section containing target phone numbers for transfer.
+-    `function:` Specifies that this is a transfer function.
+-    `data_map:` Expressions to control the transfer process based on conditions.
+-    `argument:` Definition of the 'target' argument that specifies the transfer destination.
+-    `purpose:` Describes the purpose of the function.
 
 ## Supported Languages
 
