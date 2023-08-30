@@ -103,11 +103,11 @@ The configuration starts with a version identifier and a nested structure named 
 
 ```
 
-The assistant supports multiple languages, each with a language code, voice setting, and name. US English and US Spanish is used for this example. 
+The assistant supports multiple languages, each with a language code, voice setting, and name. US English and US Spanish is used in the example. 
 
 ## Conclusion
 
-Configuring virtual assistants involves defining various aspects of their behavior, such as prompts, functions, and supported languages. This JSON configuration snippet offers insights into how a customer support virtual assistant can be configured to handle calls and interactions effectively.
+Configuring virtual assistants involves defining various aspects of their behavior, such as prompts, functions, and supported languages. This JSON configuration example offers insights into how a customer support virtual assistant can be configured to handle calls and interactions.
 
 ## Full Example
 
