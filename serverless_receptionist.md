@@ -103,7 +103,7 @@ The configuration starts with a version identifier and a nested structure named 
 
 ```
 
-The assistant supports multiple languages, each with a language code, voice setting, and name.
+The assistant supports multiple languages, each with a language code, voice setting, and name. US English and US Spanish is used for this example. 
 
 ## Conclusion
 
