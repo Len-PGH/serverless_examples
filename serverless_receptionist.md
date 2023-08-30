@@ -1,6 +1,6 @@
 ## Signalwire AI Serverless Receptionist
 
-In the realm of artificial intelligence and conversational systems, configuring virtual assistants to handle tasks and interactions is crucial. In this article, we'll dive into a JSON configuration snippet that outlines the behavior of the Signalwire AI Serverless Receptionist for customer support. Let's break down each component step by step.
+In the realm of artificial intelligence and conversational systems, configuring virtual assistants to handle tasks and interactions is crucial. In this article, we'll dive into a JSON configuration snippet that outlines the behavior of the Signalwire AI Serverless Receptionist for customer support with the option to transfer the call to a specific person. Let's break down each component step by step.
 Version and Sections
 
 ```
@@ -104,7 +104,8 @@ The configuration starts with a version identifier and a nested structure named 
 ```
 
 The assistant supports multiple languages, each with a language code, voice setting, and name.
-Conclusion
+
+## Conclusion
 
 Configuring virtual assistants involves defining various aspects of their behavior, such as prompts, functions, and supported languages. This JSON configuration snippet offers insights into how a customer support virtual assistant can be configured to handle calls and interactions effectively.
 
