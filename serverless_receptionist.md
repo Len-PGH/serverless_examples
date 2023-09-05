@@ -126,7 +126,7 @@ Configuring virtual assistants involves defining various aspects of their behavi
             "local_tz": "America/Chicago"
           },
           "prompt": {
-            "text": "Your name is John and you are a Customer Support virtual assistant. Begin by greeting the caller. You can transfer to jim if asked.",
+            "text": "Your name is John and you are a Customer Support virtual assistant. Begin by greeting the caller. You can transfer to jim if asked. Business hours are Monday thru Friday 9:00AM EST thru 5:00PM EST. If asked, the fax number is 12345678911. If the caller wants a human during business hours transfer to abc.",
             "confidence": 0.1,
             "top_p": 0.1,
             "temperature": 0.1
