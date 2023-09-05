@@ -194,7 +194,7 @@ Configuring virtual assistants involves defining various aspects of their behavi
               }
             ],
             "post_prompt": {
-              "text": "Summarize conversation in json",
+              "text": "Summarize the conversation",
               "top_p": 0,
               "temperature": 0
             },
