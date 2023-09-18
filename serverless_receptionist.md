@@ -84,7 +84,7 @@ The configuration starts with a version identifier and a nested structure named 
 -    `argument:` Definition of the 'target' argument that specifies the transfer destination.
 -    `purpose:` Describes the purpose of the function.
 
-## Supported Languages
+## Languages Section
 
 ```
 
