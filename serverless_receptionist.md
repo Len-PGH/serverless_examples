@@ -137,7 +137,7 @@ Configuring virtual assistants involves defining various aspects of their behavi
                 "meta_data": {
                   "target_table": {
                     "jim": "+17247231200",
-                    "abc": "+12345678910"
+                    "abc": "+15555678910"
                   }
                 },
                 "function": "transfer",
