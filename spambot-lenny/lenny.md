@@ -121,7 +121,7 @@ Lenny is prepared for common spam scenarios, such as car warranty or credit card
 
 5. Recording and Post-Prompt
 
-Throughout the call, Lenny records the conversation. After the call ends, Lenny summarizes the interaction in JSON format, which can be useful for analysis and tracking spam calls.
+Throughout the call, Lenny records the conversation. After the call ends, Lenny summarizes the interaction, which can be useful for analysis and tracking spam calls.
 
 ### Conclusion
 
