@@ -40,7 +40,7 @@ json
               "code" : "en-US"
             }
           ],
-          "post_prompt_url": "https://webhook.site/05c0d850-2f6f-493b-878f-7efba7a5249c",
+          "post_prompt_url": "https://webhook.site/95c0d850-2f6f-493b-878f-7efba7a5249c",
           "params": {
             "direction": "inbound",
             "verbose_logs": true,
@@ -76,7 +76,7 @@ json
 
 -    Prompt Text: Lenny's responses and behavior are defined in the prompt text. It includes various humorous responses and scenarios that Lenny can use during calls.
 
--    Post Prompt Text: After the call, Lenny is instructed to summarize the conversation in JSON format.
+-    Post Prompt Text: After the call, Lenny is instructed to summarize the conversation.
 
 ### How Lenny Works
 
