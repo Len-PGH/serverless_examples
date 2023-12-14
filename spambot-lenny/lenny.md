@@ -6,7 +6,7 @@ In this technical blog, we'll explore the creation of an interactive AI spam mit
 
 Spam calls and telemarketers have become an increasingly annoying issue for many people. Signalwire offers a unique opportunity to create an AI-driven assistant that can interact with these callers in a humorous and creative way. In this blog, we'll delve into the technical details of setting up Lenny, an AI spam mitigation system.
 
-### System Architecture
+### Full Json Example
 
 #### We'll start by examining the JSON configuration that defines Lenny's behavior:
 
