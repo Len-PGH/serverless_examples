@@ -1,4 +1,4 @@
-## Technical Blog: Creating an Interactive AI Spam Mitigation System with Signalwire
+## Creating an Interactive AI Spam Mitigation System with Signalwire
 
 In this technical blog, we'll explore the creation of an interactive AI spam mitigation system using Signalwire's AI Agents. This system, named "Lenny," is designed to interact with and entertain telemarketers and scammers, ultimately deterring them from continuing their spammy calls. Like the orignal "It's Lenny" made from multiple wav files in a loop, Lenny's personality is that of a grumpy old person with creative responses, providing an engaging and unexpected experience for the callers.
 
