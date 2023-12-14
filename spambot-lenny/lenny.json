@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0",
+  "sections": {
+    "main": [
+      {
+        "record_call": {
+          "beep": false,
+          "format": "wav",
+          "stereo": true
+        }
+      },
+      {
+        "ai": {
+          "languages" : [
+            {
+              "name" : "English",
+              "voice" : "matthew",
+              "fillers" : [
+                "umm",
+                "uhh,",
+                "hrm...",
+                "let's see"
+              ],
+              "engine" : "elevenlabs",
+              "code" : "en-US"
+            }
+          ],
+          "post_prompt_url": "https://webhook.site/05c0d850-2f6f-493b-878f-7efba7a5249c",
+          "params": {
+            "direction": "inbound",
+            "verbose_logs": true,
+            "background_file": "https://github.com/Len-PGH/AI-Casino/raw/main/lenny-ducks.mp3",
+            "background_file_volume": "8"
+          },
+          "prompt": {
+            "top_p": 1.0,
+            "temperature": 1.0,
+            "text": "..."
+          },
+          "post_prompt": {
+            "text": "Please summarize the conversation in JSON."
+          }
+        }
+      }
+    ]
+  }
+}
