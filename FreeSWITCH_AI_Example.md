@@ -85,7 +85,7 @@ The actions are executed sequentially when the condition is met:
 <action application="set" data="hangup_after_bridge=true"/>
 ```
 
--   Sets a variable hangup_after_bridge to true, which means the call will be hung up immediately after the bridge application completes its execution.
+-   Sets a variable `hangup_after_bridge` to true, which means the call will be hung up immediately after the bridge application completes its execution.
 
 ## Set Ringback Tone
 
@@ -102,7 +102,7 @@ The actions are executed sequentially when the condition is met:
     <action application="bridge" data="sofia/external/FreeSWITCH_AI@dev-freeswitch-ai.dapp.swire.io;transport=tcp"/>
 ```
 
-        Bridges the call to the SIP URI FreeSWITCH_AI@dev-freeswitch-ai.dapp.swire.io using the TCP transport. This effectively forwards the call to the specified SIP address.
+- Bridges the call to the SIP URI FreeSWITCH_AI@dev-freeswitch-ai.dapp.swire.io using the TCP transport. This effectively forwards the call to the specified SIP address.
 
 
 
