@@ -2,7 +2,7 @@
 
 # LenAI Bot
 
-Want to add an AI Agent to your FreeSWITCH instance?  Here we have an example using a dialplan to bridge to a Signalwire AI Agent. This is a twist of the classic "It's Lenny" spam call mitigation with Signalwire's new AI Agent Capabilities.
+Want to add an AI Agent to your FreeSWITCH instance?  Here we have a FreeSWITCH dialplan example bridging to a Signalwire AI Agent. This is a twist of the classic "It's Lenny" spam call mitigation with Signalwire's new AI Agent Capabilities.
 
 ### FreeSWITCH Dialplan
 
